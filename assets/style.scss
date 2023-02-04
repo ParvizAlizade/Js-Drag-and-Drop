@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dropZone {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  .drag {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
